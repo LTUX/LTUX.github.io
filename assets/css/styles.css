@@ -329,6 +329,9 @@ iframe {
   color: #999;
   font-weight: normal;
 }
+.experience .item .item-image {
+  max-width: 25%;
+}
 /* Git section */
 .github-graph {
   margin-bottom: 30px;
