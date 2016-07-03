@@ -22,7 +22,10 @@ jQuery(document).ready(function($) {
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
 
-
+    /* activate iframe on click */
+    $("#LoadProto").click(function () {
+        $("#frame").attr("src", "prototype/frame.html");
+    });
     /* jQuery RSS - https://github.com/sdepold/jquery-rss */
 
     $("#rss-feeds").rss(
