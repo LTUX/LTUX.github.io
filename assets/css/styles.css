@@ -242,6 +242,7 @@ iframe {
 }
 .latest .featured .desc {
   margin-bottom: 30px;
+  text-align: right;
 }
 .latest .featured-image {
   position: relative;
