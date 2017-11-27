@@ -226,7 +226,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  color: #C29C70;
   text-decoration: underline;
 }
 
@@ -5665,7 +5665,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: white !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {

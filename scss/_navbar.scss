@@ -4,23 +4,23 @@
   padding-bottom: 1rem;
   @include heading-font;
   .navbar-brand {
-    color: $white;
+    color: $gray-900;
   }
   .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
     li.nav-item {
       a.nav-link {
-        color: $white;
+        color: $gray-900;
         &:hover {
-          color: $primary;
+          color: $gold;
         }
         &:active,
         &:focus {
           color: $white;
         }
         &.active {
-          color: $primary;
+          color: $gold;
         }
       }
     }
@@ -47,13 +47,13 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $white;
-      background: $primary;
+      color: $gray-900;
+      background: $gold;
       &:active,
       &:focus,
       &:hover {
-        color: $white;
-        background: $primary;
+        color: $gray-900;
+        background: $gold;
       }
     }
   }

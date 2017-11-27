@@ -44,11 +44,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-  border-color: $secondary;
+  border-color: $gold;
 }
 hr.star-dark:after {
-  color: $secondary;
-  background-color: white;
+  color: $gold;
+  background-color: $secondary;
 }
 
 // Section Padding Settings
